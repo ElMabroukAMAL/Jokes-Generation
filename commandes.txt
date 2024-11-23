@@ -1,0 +1,8 @@
+* creer un env virtuel : python -m venv env
+* activer l'env : env/scripts/activate
+* installer toutes les dependences : pip install fastapi "uvicorn[standard]" langchain langchain-google-genai pydantic streamlit requests
+* lancer le derveur FastAPI : uvicorn api:app --reload
+streamlit run frontend.py
+
+* Sauvegarder les dépendances dans un fichier requirements.txt : pip freeze > requirements.txt
+* Pour réinstaller les dépendances dans un autre environnement : pip install -r requirements.txt
