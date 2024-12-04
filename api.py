@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDi0e42aTdXnhvHEzdQYh-zvfGnk_jcmQw"
+os.environ["GOOGLE_API_KEY"] = "***********************************"
 
 
 app = FastAPI()
